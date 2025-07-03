@@ -1,0 +1,42 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #070707;
+  padding: 1rem 2rem;
+}
+
+span {
+    color: white;
+}
+
+.navbar .logo {
+  color: rgba(218, 165, 32, 0.645);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #f0a500;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* For basic static nav, you'd replace this with a hamburger menu */
+  }
+}

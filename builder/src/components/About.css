@@ -1,0 +1,66 @@
+.about-page {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.about-hero {
+  background: url('https://colemangreig.com.au/wp-content/uploads/2024/07/Help-My-builder-wont-finish-the-job.webp') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.company-story,
+.mission-vision,
+.our-team {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.mission, .vision {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.team-member {
+  width: 200px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+}
+
+.team-member p {
+  color: #555;
+}
